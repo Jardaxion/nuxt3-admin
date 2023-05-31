@@ -1,42 +1,15 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
+# Nuxt 3 admin panel
+This admin panel made with vue, nuxt 3, bootstrap etc.
+WARNING! this version is not done, this is pre-alpha version
 ## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
+`npm install`
 
 ## Development Server
+`npm run dev`
 
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# Frameworks, plugins
+1. [Nuxt 3 with basic pre-install plugins(Vue 3, vue-routing and etc.)](https://nuxt.com/)
+2. [Bootstrap 5](https://getbootstrap.com/)
+3. [Sweetalert 2](https://sweetalert2.github.io/)
+4. [vue-sweetalert](https://github.com/avil13/vue-sweetalert2)
+5. [SASS](https://www.npmjs.com/package/sass)
