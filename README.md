@@ -1,5 +1,5 @@
 # Nuxt 3 admin panel
-This admin panel made with vue, nuxt 3, bootstrap etc.
+This admin panel made with vue, nuxt 3, bootstrap etc.<br>
 WARNING! this version is not done, this is pre-alpha version
 ## Setup
 `npm install`
