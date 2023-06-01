@@ -1,16 +1,25 @@
 <template>
     <div>
         <AdminPagesHeader />
-        <main>
+        <AdminPagesHeaderMenuHeader />
+        <main class="" style="background-color: #101010;">
             <slot />
         </main>
     </div>
 </template>
 
 <script lang="ts" setup>
-    import Swal from 'sweetalert2';
+    import { useAdminStore } from '~/stores/adminStore';
+
+    let adminStore = useAdminStore();
 
     useHead({
-        title: 'Админ панель'
+        title: adminStore.adminTitle
     })
 </script>
+
+<style scoped lang="scss">
+    main{
+        min-height: 100vh;
+    }
+</style>

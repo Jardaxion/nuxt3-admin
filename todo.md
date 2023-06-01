@@ -1,5 +1,5 @@
-1. [ ] Frontend ~
-    - [ ] 1.1 AdminLayout
+1. [ ] Frontend
+    - [ X ] 1.1 AdminLayout
     - [ ] 1.2 Main page 
         - 1.2.1 Main page
         - 1.2.2 Main page editor
