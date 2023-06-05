@@ -19,3 +19,5 @@ npm run dev
 5. [vue-sweetalert](https://github.com/avil13/vue-sweetalert2)
 6. [SASS](https://www.npmjs.com/package/sass) 
 7. [Font-Awesome](https://fontawesome.com/)
+8. [TypeScript](https://www.npmjs.com/package/typescript)
+9. [ts-node](https://www.npmjs.com/package/ts-node)
