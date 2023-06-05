@@ -21,11 +21,19 @@ npm run dev
 # Commands
 Create models
 ```
-npm run add:model --name="ModelName"
+npm run add:model <ModelName> -- -m(for create migration, not required)
+```
+Remove model
+```
+npm run remove:model <ModelName>
 ```
 Create controllers
 ```
-npm run add:controller --name="ControllerName"
+npm run add:controller <ControllerName>
+```
+Remove controller
+```
+npm run remove:controller <ControllerName>
 ```
 
 # Frameworks, plugins
