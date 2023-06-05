@@ -1,7 +1,5 @@
-let path = require('path');
+import {resolve} from 'path';
 
-function getAbsolutePath(): String{
-    return path.resolve('package.json').replace('package.json', '');
+export function getAbsolutePath(): string{
+    return resolve('package.json').replace('package.json', '');
 }
-
-exports.getAbsolutePath = getAbsolutePath;

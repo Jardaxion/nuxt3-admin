@@ -23,8 +23,13 @@ Create models
 ```
 npm run add:model --name="ModelName"
 ```
+Create controllers
+```
+npm run add:controller --name="ControllerName"
+```
 
 # Frameworks, plugins
+#Frontend
 ## Frameworks
 1. [Nuxt 3 with basic pre-install plugins(Vue 3, vue-routing and etc.)](https://nuxt.com/)
 2. [Bootstrap 5](https://getbootstrap.com/)
@@ -36,3 +41,5 @@ npm run add:model --name="ModelName"
 5. [Font-Awesome](https://fontawesome.com/)
 6. [TypeScript](https://www.npmjs.com/package/typescript)
 7. [ts-node](https://www.npmjs.com/package/ts-node)
+8. [colors](https://www.npmjs.com/package/colors)
+8. [commander](https://github.com/tj/commander.js)

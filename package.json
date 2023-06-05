@@ -1,14 +1,26 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt3-admin",
   "private": true,
+  "description": "Admin-panel created on nuxt3 with bootstrap",
+  "author": "Jardaxion",
+  "license": "GNU AGPLv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jardaxion/nuxt3-admin.git"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "add:model": "npx ts-node dev/commands/addModel.ts",
-    "add:help": "npx ts-node dev/commands/helps/helpAdd.ts"
+    "help": "npx ts-node --esm dev/commands/helps/help.ts",
+    "add:help": "npx ts-node --esm dev/commands/helps/helpAdd.ts",
+    "remove:help": "npx ts-node --esm dev/commands/helps/helpAdd.ts",
+    "add:model": "npx ts-node --esm dev/commands/add/addModel.ts",
+    "remove:model": "npx ts-node --esm dev/commands/remove/removeModel.ts",
+    "add:controller": "npx ts-node --esm dev/commands/add/addController.ts",
+    "remove:controller": "npx ts-node --esm dev/commands/remove/removeController.ts"
   },
   "overrides": {
     "vue": "latest"
@@ -27,7 +39,10 @@
     "@sweetalert2/theme-bootstrap-4": "^5.0.15",
     "@sweetalert2/theme-dark": "^5.0.15",
     "bootstrap": "^5.3.0",
+    "colors": "^1.4.0",
+    "commander": "^10.0.1",
     "pinia": "^2.1.3",
     "sass": "^1.62.1"
-  }
+  },
+  "type": "module"
 }

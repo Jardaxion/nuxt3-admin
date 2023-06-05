@@ -13,10 +13,18 @@
         - [ ] 1.4.4 Edit row
     (Maybe add more another pages)
 2. [ ] Backend
-    - [ ] 1 Commands
-        - [ ] 1.1 Migrate command
-        - [X] 1.2 Add model command
-        - [ ] 1.3 Add controller command
+    - [ ] 1. Commands
+        - [X] 1.1 Add model commands
+        - [X] 1.2 Add controller commands
+        - [ ] 1.3 Add migrate commands
+        - [ ] 1.4 Migrate command (After creating migrate logic)
+    - [ ] 2. Classes
+        - [ ] 2.1 Model class
+        - [ ] 2.2 Controller class
+    - [ ] 3. Migrations
+        - [ ] 3.1 Create logic of migrations
+        - [ ] 3.2 Logic of files migrate
 3. [ ] Testing
-4. [ ] First realese
-5. [ ] Documentation
+4. [ ] Documentation
+    - [ ] 4.1 Frontend
+5. [ ] First realese
