@@ -12,12 +12,14 @@ npm run dev
 ```
 
 # Frameworks, plugins
+## Frameworks
 1. [Nuxt 3 with basic pre-install plugins(Vue 3, vue-routing and etc.)](https://nuxt.com/)
-2. [Pinia](https://pinia.vuejs.org/)
-3. [Bootstrap 5](https://getbootstrap.com/)
-4. [Sweetalert 2](https://sweetalert2.github.io/)
-5. [vue-sweetalert](https://github.com/avil13/vue-sweetalert2)
-6. [SASS](https://www.npmjs.com/package/sass) 
-7. [Font-Awesome](https://fontawesome.com/)
-8. [TypeScript](https://www.npmjs.com/package/typescript)
-9. [ts-node](https://www.npmjs.com/package/ts-node)
+2. [Bootstrap 5](https://getbootstrap.com/)
+## Plugins
+1. [Pinia](https://pinia.vuejs.org/)
+2. [Sweetalert 2](https://sweetalert2.github.io/)
+3. [vue-sweetalert](https://github.com/avil13/vue-sweetalert2)
+4. [SASS](https://www.npmjs.com/package/sass) 
+5. [Font-Awesome](https://fontawesome.com/)
+6. [TypeScript](https://www.npmjs.com/package/typescript)
+7. [ts-node](https://www.npmjs.com/package/ts-node)
