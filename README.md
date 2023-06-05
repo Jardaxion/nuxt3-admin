@@ -37,7 +37,6 @@ npm run remove:controller <ControllerName>
 ```
 
 # Frameworks, plugins
-#Frontend
 ## Frameworks
 1. [Nuxt 3 with basic pre-install plugins(Vue 3, vue-routing and etc.)](https://nuxt.com/)
 2. [Bootstrap 5](https://getbootstrap.com/)
