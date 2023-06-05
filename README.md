@@ -1,6 +1,13 @@
 # Nuxt 3 admin panel
 This admin panel made with [vue, nuxt 3, bootstrap etc.](https://github.com/Jardaxion/nuxt3-admin#frameworks-plugins)<br>
 WARNING! this version is not done, this is pre-alpha version (developing just starting)
+# Table of contents
+1. [Setup](https://github.com/Jardaxion/nuxt3-admin#setup)
+2. [Start server](https://github.com/Jardaxion/nuxt3-admin#development-server)
+3. [Commands](https://github.com/Jardaxion/nuxt3-admin#commands)
+4. [FrameWorks and Plugins](https://github.com/Jardaxion/nuxt3-admin#frameworks-plugins) <br>
+4.1 [Frameworks](https://github.com/Jardaxion/nuxt3-admin#frameworks) <br>
+4.2 [Plugins](https://github.com/Jardaxion/nuxt3-admin#plugins)
 ## Setup
 ```
 npm install
@@ -9,6 +16,12 @@ npm install
 ## Development Server
 ```
 npm run dev
+```
+
+# Commands
+Create models
+```
+npm run add:model --name="ModelName"
 ```
 
 # Frameworks, plugins
