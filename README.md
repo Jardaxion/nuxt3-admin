@@ -1,6 +1,6 @@
 # Nuxt 3 admin panel
 This admin panel made with [vue, nuxt 3, bootstrap etc.](https://github.com/Jardaxion/nuxt3-admin#frameworks-plugins)<br>
-WARNING! this version is not done, this is pre-alpha version (developing just starting)
+<p style="color: red">WARNING!</p> this version is not done, this is pre-alpha version (developing just starting)
 ## Setup
 ```
 npm install

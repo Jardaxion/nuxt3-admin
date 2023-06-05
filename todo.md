@@ -15,7 +15,8 @@
 2. [ ] Backend
     - [ ] 1 Commands
         - [ ] 1.1 Migrate command
-        - [ ] 1.2 Add model command
+        - [X] 1.2 Add model command
         - [ ] 1.3 Add controller command
 3. [ ] Testing
 4. [ ] First realese
+5. [ ] Documentation

@@ -6,7 +6,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "add:model": "node dev/commands/addModel.js",
+    "add:help": "node dev/commands/helps/helpAdd.js"
   },
   "overrides": {
     "vue": "latest"
@@ -15,6 +17,7 @@
     "@types/node": "^18",
     "nuxt": "^3.5.2",
     "sweetalert2": "^11.7.9",
+    "typescript": "^5.1.3",
     "vue-sweetalert2": "^5.0.5"
   },
   "dependencies": {
