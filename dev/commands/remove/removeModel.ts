@@ -24,7 +24,7 @@ program.argument('<ModelName>', 'Name of model need to remove')
         //Delete file
         fs.unlinkSync(pathModel);
 
-        console.log('Model was deleted');
+        console.log(colors.yellow('Model was deleted'));
 });
 
 program.parse(process.argv);

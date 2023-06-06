@@ -5,26 +5,27 @@ import colors from 'colors';
 
 let program = new Command();
 
-program.argument('<ControllerName>', 'Name of controller need to delete')
-    .action((controllerName) => {
+program.argument('<CommandName>', 'Name of command need to delete')
+    .action((commandName) => {
         //get absolute path
         let absolutePath: string = resolve('package.json').replace('package.json', '');
 
         //Get path
-        let pathController: any = absolutePath +  "app/controllers/" + controllerName + '.ts';
+        let pathCommand: any = absolutePath +  "app/commands/" + commandName + '.ts';
 
         //Check is file exist
-        if(!fs.existsSync(pathController)){
+        if(!fs.existsSync(pathCommand)){
             console.error(colors.red('Error!'));
             console.log('');
-            console.error('Controller is not exist');
+            console.error('Command is not exist');
             process.exit();
         } 
 
         //Delete file
-        fs.unlinkSync(pathController);
+        fs.unlinkSync(pathCommand);
 
-        console.log(colors.yellow('Controller was deleted'));
+        console.log(colors.yellow('Command was deleted'));
+        console.log("Don't forget to delete the line in package.json");
 });
 
 program.parse(process.argv);

@@ -20,7 +20,9 @@
     "add:model": "npx ts-node --esm dev/commands/add/addModel.ts",
     "remove:model": "npx ts-node --esm dev/commands/remove/removeModel.ts",
     "add:controller": "npx ts-node --esm dev/commands/add/addController.ts",
-    "remove:controller": "npx ts-node --esm dev/commands/remove/removeController.ts"
+    "remove:controller": "npx ts-node --esm dev/commands/remove/removeController.ts",
+    "add:command": "npx ts-node --esm dev/commands/add/addCommand.ts",
+    "remove:command": "npx ts-node --esm dev/commands/remove/removeCommand.ts"
   },
   "overrides": {
     "vue": "latest"

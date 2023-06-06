@@ -35,6 +35,14 @@ Remove controller
 ```
 npm run remove:controller <ControllerName>
 ```
+Create command
+```
+npm run add:command <CommandName>
+```
+Remove command
+```
+npm run remove:command <CommandName>
+```
 
 # Frameworks, plugins
 ## Frameworks
