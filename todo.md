@@ -16,8 +16,9 @@
     - [ ] 1. Commands
         - [X] 1.1 Add model commands
         - [X] 1.2 Add controller commands
-        - [ ] 1.3 Add migrate commands
-        - [ ] 1.4 Migrate command (After creating migrate logic)
+        - [ ] 1.3 Add command commands
+        - [ ] 1.4 Add migrate commands
+        - [ ] 1.5 Migrate command (After creating migrate logic)
     - [ ] 2. Classes
         - [ ] 2.1 Model class
         - [ ] 2.2 Controller class
