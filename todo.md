@@ -17,14 +17,20 @@
         - [X] 1.1 Add model commands
         - [X] 1.2 Add controller commands
         - [X] 1.3 Add command commands
-        - [ ] 1.4 Add migrate commands
-        - [ ] 1.5 Migrate command (After creating migrate logic)
+        - [ ] 1.4 Add admin controller commands
+        - [ ] 1.5 Add migrate commands
+        - [ ] 1.6 Migrate command (After creating migrate logic)
     - [ ] 2. Classes
         - [ ] 2.1 Model class
         - [ ] 2.2 Controller class
     - [ ] 3. Migrations
         - [ ] 3.1 Create logic of migrations
         - [ ] 3.2 Logic of files migrate
+    - [ ] 4. Admin
+        - [ ] 4.1 Login of auth
+            - [ ] 4.1.1 Logic of auth
+            - [ ] 4.1.2 Logic of add new admin
+            - [ ] 4.1.3 Add middleware guard
 3. [ ] Testing
 4. [ ] Documentation
     - [ ] 4.1 Frontend
