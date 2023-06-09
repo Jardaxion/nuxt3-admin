@@ -21,5 +21,6 @@
 <style scoped lang="scss">
     main{
         min-height: 100vh;
+        padding-top: 88px;
     }
 </style>
