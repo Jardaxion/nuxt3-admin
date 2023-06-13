@@ -1,0 +1,29 @@
+{
+    "pages": {
+        "MainSettings": {
+            "title": "Настойки сайта",
+            "inputs": {
+                "siteName": {
+                    "title": "Название сайта",
+                    "type": "text",
+                    "subtitle": "Введите название сайта"
+                },
+                "icon": {
+                    "title": "Иконка сайта",
+                    "type": "file",
+                    "subtitle": ""
+                }
+            }
+        },
+        "Contacts": {
+            "title": "Контакты",
+            "inputs": {
+                "email": {
+                    "title": "Email",
+                    "type": "email",
+                    "subtitle": "Введите ваш email"
+                }
+            }
+        }
+    }
+}

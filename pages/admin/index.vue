@@ -21,9 +21,6 @@
                 </div>
             </div>
         </section>
-        <nuxt-link to="/admin/mainpage/settings"  class="settingMain bg-secondary" title="Перейти к настройкам главной страницы">
-                <i class="fa-solid fa-gear fa-beat fa-xl text-white settingMain__icon"></i>
-        </nuxt-link>
     </NuxtLayout>
 </template>
 
@@ -39,16 +36,4 @@
             gap: 15px;
         }
     }
-
-    .settingMain{
-        padding: 10px;
-        border-radius: 50%;
-        position: fixed;
-        bottom: 45px;
-        right: 45px;
-        transition: .3s ease all;
-        &:hover{
-            transform: scale(1.1);
-        }
-    }
-</style>e
+</style>

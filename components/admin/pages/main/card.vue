@@ -20,5 +20,8 @@
 <style lang="scss">
     .card{
         --bs-card-bg: #212529;
+        *{
+            transition: .3s ease all;
+        }
     }
 </style>
