@@ -11,7 +11,7 @@ program.argument('<CommandName>', 'Name of command need to delete')
         let absolutePath: string = resolve('package.json').replace('package.json', '');
 
         //Get path
-        let pathCommand: any = absolutePath +  "app/commands/" + commandName + '.ts';
+        let pathCommand: string = absolutePath +  "app/commands/" + commandName + '.ts';
 
         //Check is file exist
         if(!fs.existsSync(pathCommand)){

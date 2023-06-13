@@ -40,6 +40,7 @@ export class `+ modelName  + ` extends Model{
         fs.appendFileSync(pathModel, template);
 
         console.log('Model was created!');
+        console.log("The model was created in the directory: " + pathModel);
     })
 
 program.parse(process.argv);

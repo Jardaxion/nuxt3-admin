@@ -11,7 +11,7 @@ program.argument('<ControllerName>', 'Name of controller need to delete')
         let absolutePath: string = resolve('package.json').replace('package.json', '');
 
         //Get path
-        let pathController: any = absolutePath +  "app/controllers/" + controllerName + '.ts';
+        let pathController: string = absolutePath +  "app/controllers/" + controllerName + '.ts';
 
         //Check is file exist
         if(!fs.existsSync(pathController)){

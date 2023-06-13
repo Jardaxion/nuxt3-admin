@@ -19,7 +19,7 @@ program.argument('<CommandName>', 'Name for command')
         };
 
         //Get path
-        let pathCommand: any = absolutePath +  "app/commands/" + CommandName + '.ts';
+        let pathCommand: string = absolutePath +  "app/commands/" + CommandName + '.ts';
 
         //Check is file exist
         if(fs.existsSync(pathCommand)){
@@ -43,7 +43,8 @@ program.parse(process.argv);`;
 
         fs.appendFileSync(pathCommand, template);
 
-        console.log('Command file was created!');
+        console.log(colors.green('Command file was created!'));
+        console.log("The command was created in the directory: " + pathCommand);
         console.log('');
         console.log(colors.yellow('Warning!'));
         console.log('To activate the command, add to scripts in package.json:');

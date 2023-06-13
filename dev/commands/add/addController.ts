@@ -19,7 +19,7 @@ program.argument('<ControllerName>', 'Name for controller')
         };
 
         //Get path
-        let pathController: any = absolutePath +  "app/controllers/" + controllerName + '.ts';
+        let pathController: string = absolutePath +  "app/controllers/" + controllerName + '.ts';
 
         //Check is file exist
         if(fs.existsSync(pathController)){
@@ -37,7 +37,8 @@ export class `+ controllerName  + ` extends Controller{
 
         fs.appendFileSync(pathController, template);
 
-        console.log('Controller was created!');
+        console.log(colors.green('Controller was created!'));
+        console.log("The controller was created in the directory: " + pathController);
 });
 
 program.parse(process.argv);

@@ -11,7 +11,7 @@ program.argument('<ModelName>', 'Name of model need to remove')
         let absolutePath: string = resolve('package.json').replace('package.json', '');
 
         //Get path
-        let pathModel: any = absolutePath +  "app/models/" + modelName + '.ts';
+        let pathModel: string = absolutePath +  "app/models/" + modelName + '.ts';
 
         //Check is file exist
         if(!fs.existsSync(pathModel)){
