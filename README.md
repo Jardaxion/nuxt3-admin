@@ -58,3 +58,4 @@ npm run remove:command <CommandName>
 7. [ts-node](https://www.npmjs.com/package/ts-node)
 8. [colors](https://www.npmjs.com/package/colors)
 8. [commander](https://github.com/tj/commander.js)
+9. [dotenv](https://www.npmjs.com/package/dotenv)
