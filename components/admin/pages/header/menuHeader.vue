@@ -7,7 +7,7 @@
         <div class="header__menu-inner position-relative w-100">
             <i class="fa-solid fa-xmark text-white fa-xl position-absolute end-0 top-0 header__menu-close"
             @click="changeActiveMenu()"></i>
-            <nuxt-link class="header__menu-link text-white fs-5 text-decoration-none position-relative" to="/admin/routes">Роуты</nuxt-link>
+            <nuxt-link class="header__menu-link text-white fs-5 text-decoration-none position-relative" to="/admin/routes/show">Роуты</nuxt-link>
         </div>
     </div>
 </template>

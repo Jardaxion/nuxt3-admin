@@ -3,16 +3,24 @@
         <section class="tablePage">
             <div class="container">
                 <div class="tablePage__inner">
+                    <div class="tablePage__top d-flex justify-content-between align-items-center">
+                        <p class="tablePage__title text-white fs-2">{{ route.params.table }}</p>
+                        <nuxt-link class="btn btn-primary me-2" :to="route.params.table + '/add'">Добавить</nuxt-link>
+                    </div>
                     <table class="table table-dark">
                         <thead>
                             <tr>
                                 <th>Id</th>
+                                <th>Название</th>
+                                <th>Ссылка</th>
                                 <th>Действия</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th>1</th>
+                                <th>Товары</th>
+                                <th>/products/show</th>
                                 <th>
                                     <nuxt-link class="btn btn-primary me-2" to="">Редактировать</nuxt-link>
                                     <nuxt-link @click.prevent="showAlert()" class="btn btn-danger tablePage__delete" to="">Удалить</nuxt-link>
@@ -35,7 +43,8 @@
             text: "Вы не сможете вернуть данные",
             icon: "warning",
             confirmButtonText: "Да",
-            denyButtonText: "Нет"
+            denyButtonText: "Нет",
+            showDenyButton: true,
         }).then((res) => {
             if(res.isDenied){
                 swal.close();
@@ -43,7 +52,10 @@
                 swal.close();
                 swal.fire({
                     title: "Удаление произошло успешно",
-                    icon: "success"
+                    icon: "success",
+                    showConfirmButton: false,
+                    timer: 1000,
+                    timerProgressBar: true,
                 })
             }
         });
