@@ -1,14 +1,14 @@
 import {Command} from 'commander';
 import fs from 'fs';
-import {resolve} from 'path';
 import colors from 'colors';
+import getAbsolutePath from '../../helpers/getAbsolutePath.js';
 
 let program = new Command();
 
 program.argument('<CommandName>', 'Name for command')
     .action((CommandName) => {
         //get absolute path
-        let absolutePath: string = resolve('package.json').replace('package.json', '');
+        let absolutePath: string = getAbsolutePath();
 
         //check is name have a space
         if(CommandName.includes(' ')){

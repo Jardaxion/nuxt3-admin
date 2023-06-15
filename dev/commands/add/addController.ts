@@ -1,14 +1,14 @@
 import {Command} from 'commander';
 import fs from 'fs';
-import {resolve} from 'path';
 import colors from 'colors';
+import getAbsolutePath from '../../helpers/getAbsolutePath.js';
 
 let program = new Command();
 
 program.argument('<ControllerName>', 'Name for controller')
     .action((controllerName) => {
         //get absolute path
-        let absolutePath: string = resolve('package.json').replace('package.json', '');
+        let absolutePath: string = getAbsolutePath();
 
         //check is name have a space
         if(controllerName.includes(' ')){
@@ -29,7 +29,7 @@ program.argument('<ControllerName>', 'Name for controller')
             process.exit();
         } 
 
-        let template: string = `import { Controller } from "~/dev/classes/Controller";
+        let template: string = `import { Controller } from "../../dev/classes/Controller";
 
 export class `+ controllerName  + ` extends Controller{
 

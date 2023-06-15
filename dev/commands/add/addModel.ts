@@ -1,7 +1,7 @@
 import {Command} from 'commander';
 import fs from 'fs';
-import {resolve} from 'path';
 import colors from 'colors';
+import getAbsolutePath from '../../helpers/getAbsolutePath.js';
 
 let program = new Command();
 
@@ -10,7 +10,7 @@ program
     .option('-m, --migraiton', 'Add migration to model', false)
     .action((modelName) => {
         //get absolute path
-        let absolutePath: string = resolve('package.json').replace('package.json', '');
+        let absolutePath: string = getAbsolutePath();
 
         //check is name have a space
         if(modelName.includes(' ')){
@@ -31,7 +31,7 @@ program
             process.exit();
         } 
 
-        let template: string = `import { Model } from "~/dev/classes/Model";
+        let template: string = `import { Model } from "../../dev/classes/Model";
 
 export class `+ modelName  + ` extends Model{
 
