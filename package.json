@@ -36,6 +36,7 @@
     "vue-sweetalert2": "^5.0.5"
   },
   "dependencies": {
+    "@kyvg/vue3-notification": "^2.9.1",
     "@pinia/nuxt": "^0.4.11",
     "@popperjs/core": "^2.11.8",
     "@sweetalert2/theme-bootstrap-4": "^5.0.15",

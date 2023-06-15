@@ -29,7 +29,7 @@ program.argument('<ControllerName>', 'Name for controller')
             process.exit();
         } 
 
-        let template: string = `import { Controller } from "../../dev/classes/Controller";
+        let template: string = `import { Controller } from "~/dev/classes/Controller";
 
 export class `+ controllerName  + ` extends Controller{
 

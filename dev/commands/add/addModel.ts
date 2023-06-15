@@ -31,7 +31,7 @@ program
             process.exit();
         } 
 
-        let template: string = `import { Model } from "../../dev/classes/Model";
+        let template: string = `import { Model } from "~/dev/classes/Model";
 
 export class `+ modelName  + ` extends Model{
 

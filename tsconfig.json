@@ -13,5 +13,4 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "include": ["src/**/*", "package.json"],
 }
