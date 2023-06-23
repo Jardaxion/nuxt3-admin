@@ -22,7 +22,8 @@
     "add:controller": "npx ts-node --esm dev/commands/add/addController.ts",
     "remove:controller": "npx ts-node --esm dev/commands/remove/removeController.ts",
     "add:command": "npx ts-node --esm dev/commands/add/addCommand.ts",
-    "remove:command": "npx ts-node --esm dev/commands/remove/removeCommand.ts"
+    "remove:command": "npx ts-node --esm dev/commands/remove/removeCommand.ts",
+    "test": "npx ts-node --esm dev/classes/Table.ts"
   },
   "overrides": {
     "vue": "latest"
