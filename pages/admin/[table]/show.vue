@@ -5,7 +5,7 @@
                 <div class="tablePage__inner">
                     <div class="tablePage__top d-flex justify-content-between align-items-center">
                         <p class="tablePage__title text-white fs-2">{{ route.params.table }}</p>
-                        <nuxt-link class="btn btn-primary me-2" :to="route.params.table + '/add'">Добавить</nuxt-link>
+                        <nuxt-link class="btn btn-primary me-2" :to="'add'">Добавить</nuxt-link>
                     </div>
                     <table class="table table-dark">
                         <thead>
