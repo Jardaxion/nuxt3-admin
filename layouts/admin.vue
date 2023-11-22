@@ -5,6 +5,7 @@
         <main class="" style="background-color: #101010;">
             <slot />
         </main>
+        <UNotifications />
     </div>
 </template>
 

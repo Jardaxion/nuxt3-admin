@@ -22,8 +22,21 @@
                                 <th>Товары</th>
                                 <th>/products/show</th>
                                 <th>
-                                    <nuxt-link class="btn btn-primary me-2" to="">Редактировать</nuxt-link>
-                                    <nuxt-link @click.prevent="showAlert()" class="btn btn-danger tablePage__delete" to="">Удалить</nuxt-link>
+                                    <UTooltip text="Редактирование">
+                                        <nuxt-link class="btn btn-primary me-2" to="1/edit">
+                                            <i class="fa-solid fa-pen" style="color: #ffffff;"></i>
+                                        </nuxt-link>
+                                    </UTooltip>
+                                    <UTooltip text="Удалить">
+                                        <nuxt-link @click.prevent="showAlert()" class="btn btn-danger tablePage__delete me-2" to="">
+                                            <i class="fa-solid fa-trash" style="color: #ffffff;"></i>
+                                        </nuxt-link>
+                                    </UTooltip>
+                                    <UTooltip text="Просмотр">
+                                        <nuxt-link class="btn btn-success" to="1/show">
+                                            <i class="fa-regular fa-eye" style="color: #ffffff;"></i>
+                                        </nuxt-link>
+                                    </UTooltip>
                                 </th>
                             </tr>
                         </tbody>
@@ -36,6 +49,7 @@
 <script setup lang="ts">
     import swal from 'sweetalert2';
     const route: any = useRoute();
+    const toast = useToast();
 
     let showAlert = ():void => {
         swal.fire({

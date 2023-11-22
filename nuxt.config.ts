@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     },
     modules: [
         '@pinia/nuxt',
+        '@nuxt/ui'
     ],
     css: [
         "bootstrap/dist/css/bootstrap.min.css",
